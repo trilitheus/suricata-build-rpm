@@ -5,4 +5,4 @@ services:
     build: .
     volumes:
       - .:/tmp/destdir
-    #entrypoint: ['sh', '-c', '/usr/local/bin/build_suricata.sh']
+    entrypoint: ['sh', '-c', '/usr/local/bin/build_suricata.sh']
